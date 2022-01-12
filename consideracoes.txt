@@ -1,0 +1,10 @@
+
+HTTP: protocolo para transporte dos dados
+
+HTTP request: requisições ao servidor quando digita-se endereços urls para acessos a paginas na internet.
+Uma requisição do tipo get.
+
+HTTP response: resposta do servidor ao cliente.
+
+Fórmularios com metodos tipo GET, as informações sao enviadas no corpo da url.
+Do tipo POST, os dados sao passados no corpo do HTTP.
