@@ -4,7 +4,11 @@ HTTP: protocolo para transporte dos dados
 HTTP request: requisições ao servidor quando digita-se endereços urls para acessos a paginas na internet.
 Uma requisição do tipo get.
 
-HTTP response: resposta do servidor ao cliente.
+HTTP response: resposta do servidor ao cliente. Ele não armazena estado, para contornar tal situacao foi 
+criado a sessão. É representada no java pela camada httpsession. Cada cliente possui sua propria sessão. Vantagem
+para ecomerce para carrinhos de compra, de forma a manter produtos ja escolhidos.
+Para que isso funcione é necesario que cliente e servidor troquem id. Pode ser feito por cookies ou URL
+rewriting.
 
 Fórmularios com metodos tipo GET, as informações sao enviadas no corpo da url.
 Do tipo POST, os dados sao passados no corpo do HTTP.
