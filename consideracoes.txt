@@ -26,4 +26,10 @@ Por ser gratuita e possuir especificação aberta possui diversos servidores que
 Mais detalhes: https://www.devmedia.com.br/introducao-ao-java-server-pages-jsp/25602
 
 
+Thread-safe: é usado para garantir que, quando a estrutura de dados compartilhada, que
+ é manipulada por diferentes threads, seja impedida de entrar na condição de corrida. 
+A segurança de thread é recomendada quando o servidor da web executa vários threads de execução 
+simultaneamente para diferentes requests. No Thread Safety, o binário pode funcionar em um contexto
+ de servidor da web multi-thread. Thread Safety funciona criando uma cópia
+ de armazenamento local em cada thread para que os dados não colidam com outro thread. 
 

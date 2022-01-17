@@ -8,9 +8,11 @@
 <title>Página Inicial</title>
 </head>
 <body>
-<%@ include file="header.jsp"%>
-
+<!--<%@ include file="header.jsp"%>  -->
+<!-- ouuuuuu  -->
+<jsp:include page="header.jsp"/>
 Conteúdo da página inicial
+
 
 </body>
 </html>
