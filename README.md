@@ -9,11 +9,11 @@ https://www.softblue.com.br/course/home/id/4
 
 ## HTTP: protocolo para transporte dos dados
 
-###HTTP request: 
+### HTTP request: 
 requisições ao servidor quando digita-se endereços urls para acessos a paginas na internet.
 Uma requisição do tipo get.
 
-###HTTP response:
+### HTTP response:
 resposta do servidor ao cliente. Ele não armazena estado, para contornar tal situacao foi 
 criado a sessão. É representada no java pela camada httpsession. Cada cliente possui sua propria sessão. Vantagem
 para ecomerce para carrinhos de compra, de forma a manter produtos ja escolhidos.
